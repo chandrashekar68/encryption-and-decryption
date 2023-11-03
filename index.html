@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>encrypt-decrypt</title>
+        <link rel="stylesheet" href="style.css"> 
+        
+    <body>
+        <div class="encrypt-decrypt">
+            <div class="encrypt_input">
+                <h1>Encrypt</h1>
+                <textarea name="text" class="message" placeholder="Message to encrypt"></textarea>
+                <br>
+                <input type="text" name="secret" class="secret" value="" placeholder="key">
+                <button class="action">Encrypt</button>
+            </div>
+
+            <div class="encrypt_result">
+                <h2>Encrypted message:</h2>
+                <textarea class="message" readonly></textarea>
+            </div>
+        </div>
+        <div class="encrypt-decrypt">
+            <div class="decrypt_input">
+                <h1>Decrypt</h1>
+                <textarea name="text" class="message" placeholder="Message to decrypt"></textarea>
+                <br>
+                <input type="text" name="secret" class="secret" value="" placeholder="key">
+                <button class="action">Decrypt</button>
+            </div>
+
+            <div class="decrypt_result">
+                <h2>Decrypted message:</h2>
+                <textarea class="message" readonly></textarea>
+            </div>
+        </div>
+    </body>
+</html>
